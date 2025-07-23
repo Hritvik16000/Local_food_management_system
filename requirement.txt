@@ -1,7 +1,4 @@
 streamlit
-pandas 
+pandas
 sqlalchemy
-numpy
-psycopg2-binary
-seaborn 
-matplotlib
+psycopg2
