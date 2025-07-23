@@ -1,4 +1,7 @@
-streamlit
-pandas
-sqlalchemy[postgresql]
-psycopg2-binary==2.9.9
+streamlit==1.30.0
+pandas==2.1.4
+SQLAlchemy==2.0.25
+psycopg2==2.9.9 # Changed from psycopg2-binary to psycopg2
+numpy==1.26.2
+python-dateutil==2.8.2
+pytz==2023.3.post1
