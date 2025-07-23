@@ -2,3 +2,4 @@ streamlit
 pandas
 sqlalchemy
 psycopg2
+Add requirements.txt for Streamlit deployment
