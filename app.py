@@ -3,8 +3,8 @@ import streamlit as st
 from sqlalchemy import create_engine, text
 import pandas as pd
 
-'''DATABASE_URL = st.secrets["DATABASE_URL"]
-engine = create_engine(DATABASE_URL)'''
+#DATABASE_URL = st.secrets["DATABASE_URL"]
+#engine = create_engine(DATABASE_URL)
 
 
 #--- Database Connection Configuration ---
