@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from datetime import datetime
 
 # --- 1. Database Connection Configuration ---
-DATABASE_URL = postgresql://postgres:Tc9*)Cj7@db.zsrhjrjatcbnckpnhfau.supabase.co:5432/postgres
+DATABASE_URL = "postgresql://hritvikdadhich@localhost:5432/postgres"
 
 try:
     engine = create_engine(DATABASE_URL)
