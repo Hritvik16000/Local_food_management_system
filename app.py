@@ -3,7 +3,7 @@ import streamlit as st
 from sqlalchemy import create_engine, text
 import pandas as pd
 
-DATABASE_URL = st.secrets["DATABASE_URL = postgresql://postgres:Tc9*)Cj7@db.zsrhjrjatcbnckpnhfau.supabase.co:5432/postgres"]
+DATABASE_URL = st.secrets["DATABASE_URL"]
 engine = create_engine(DATABASE_URL)
 
 
