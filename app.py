@@ -3,13 +3,13 @@ import streamlit as st
 from sqlalchemy import create_engine, text
 import pandas as pd
 
-#DATABASE_URL = st.secrets["DATABASE_URL"]
-#engine = create_engine(DATABASE_URL)
+DATABASE_URL = st.secrets["DATABASE_URL"]
+engine = create_engine(DATABASE_URL)
 
 
 #--- Database Connection Configuration ---
-DATABASE_URL = "postgresql://hritvikdadhich@localhost:5432/food_wastage_db"
-engine = create_engine(DATABASE_URL)
+#DATABASE_URL = "postgresql://hritvikdadhich@localhost:5432/food_wastage_db"
+#engine = create_engine(DATABASE_URL)
 
 # --- Helper Functions ---
 def run_query(query, params=None):
