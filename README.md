@@ -103,13 +103,6 @@ streamlit run food_wastage_streamlit_app.py
 * [x] Visualizations and filters working.
 * [x] Project report with screenshots ready.
 
-## 📬 Submission Guidelines
-
-* Upload the project to **GitHub**.
-* Share the **GitHub repository link** on ZenClass.
-* Book a **Live Evaluation Slot** if required using [this form](https://forms.gle/1m2Gsro41fLtZurRA).
-* Ensure you are prepared to demonstrate CRUD, query execution, and explain your architecture during evaluation.
-
 ## 🙌 Acknowledgements
 
 This project is created for the **Food Wastage Capstone** under the **Data Science & AIML program**, aiming to apply SQL, Python, and Streamlit skills for social good.
